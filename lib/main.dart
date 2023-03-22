@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/available_events.dart';
+import 'package:techme/screens/search_event.dart';
 import 'package:from_css_color/from_css_color.dart';
 
 void main() {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Conference App',
-      home: Home(),
+      home: Search_Events(),
       theme: ThemeData(scaffoldBackgroundColor: fromCssColor('#000000')),
       debugShowCheckedModeBanner: false,
     );
